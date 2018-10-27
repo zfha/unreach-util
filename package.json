@@ -1,0 +1,39 @@
+{
+  "name": "unreach-util",
+  "version": "0.11.4",
+  "description": "前端工具基础库",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "TEST_URL=http://dev.unreach.io:4000 test-mate",
+    "cov": "TEST_URL=http://dev.unreach.io:4000 test-mate --coverage"
+  },
+  "files": [
+    "**/*.js",
+    "!coverage/"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "debug": "^3.1.0",
+    "query-string": "^6.1.0",
+    "scriptjs": "^2.5.8"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-bcd-react": "^2.1.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-test-mate": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingguatang/unreach-util.git"
+  },
+  "author": "h5@unreach.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qingguatang/unreach-util/issues"
+  },
+  "homepage": "https://github.com/qingguatang/unreach-util#readme"
+}
